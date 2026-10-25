@@ -8,8 +8,8 @@ An April 2026 progress presentation from Yitao Zeng's research internship in Gal
 
 My internship combined robot-learning data engineering, depth-aware baseline support, and real-robot system integration:
 
-- Built a parallel TFDS-to-LeRobot conversion pipeline for SynGrasp-1B trajectories and checked converted data through robot deployment tests.
-- Surveyed depth-aware policies for StereoVLA reviewer-response work and adapted a DP3 baseline using a Dockerized ROS–Franka stack, ZED sensing, and ZeroMQ communication. The deployment attempt exposed target-selection and sim-to-real difficulties.
+- Built a parallel TFDS-to-LeRobot conversion pipeline for 5 million input SynGrasp-1B trajectories, with a 99.5% trajectory conversion success rate and storage reduced from 20 TB to 5 TB for the same dataset.
+- Surveyed depth-aware policies for StereoVLA reviewer-response work and provided baseline adaptation and deployment support using a Dockerized ROS–Franka stack, ZED sensing, and ZeroMQ communication. The deployment attempt exposed target-selection and sim-to-real difficulties.
 - Supported robot-control and inference integration, including initial-pose testing, for a separate foundation-model experiment.
 - Explored data-curation methods, including CUPID, for robot learning.
 
